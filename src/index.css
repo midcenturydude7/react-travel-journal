@@ -10,6 +10,14 @@ body, html {
   padding: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
+h1, p {
+  margin: 0;
+  padding: 0;
+}
 .header--container {
   display: flex;
   justify-content: center;
@@ -27,4 +35,89 @@ body, html {
 .header--title {
   color: #FFF;
   font-weight: 500;
+}
+
+.cards-section--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4em;
+  padding: 0 3em;
+}
+
+.card--container {
+  display: flex;
+  justify-content: center;
+}
+
+.card--img-container {
+  width: 125px;
+  height: auto;
+}
+
+.card--img {
+border-radius: 8px;
+min-width: 125px;
+height: 100%;
+object-fit: cover;
+}
+
+.card-text--container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5em;
+}
+
+.card-text--header {
+  display: flex;
+  font-size: .8rem;
+  padding-top: 2em;
+}
+
+.card-location-icon {
+  color: #F55A5A;
+}
+
+.card-location-text {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: .17em;
+  margin: 0 0 .4em .25em
+}
+
+.card-location-map > a {
+  color: #918E9B;
+  margin-left: .75em
+}
+
+.card--text-title,
+.card--text-date,
+.card--text-desc {
+  color: #2B283A;
+}
+
+.card--text-title,
+.card--text-date {
+  font-weight: 700;
+}
+
+.card--text-title {
+  font-size: 1.5em;
+  letter-spacing: 0.025em;
+  margin-bottom: .75em;
+}
+
+.card--text-date,
+.card--text-desc {
+  font-size: .8rem;
+}
+
+.card--text-date {
+  margin-bottom: .7em;
+}
+
+.card--text-desc {
+  width: 65%;
+  padding-bottom: 2em;
+  line-height: 1.4;
 }
