@@ -3,8 +3,13 @@ import React from "react";
 export default function Header() {
   
   return (
-    <div>
-      <h1>Travel Journal App | Built with React</h1>
-    </div>
+    <header className="header--container">
+      <div className="header--icon">
+        <i className="fa-solid fa-earth-americas"></i>
+      </div>
+      <div>
+        <h3 className="header--title">my travel journal.</h3>
+      </div>
+    </header>
   );
 }
