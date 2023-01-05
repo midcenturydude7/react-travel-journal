@@ -7,7 +7,7 @@ export default function Cards() {
   const cards = data.map((card) => {
     return (
       <Card
-        key={card.id}
+        key={card.title}
         card={card}
       />
     );
