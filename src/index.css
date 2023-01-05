@@ -40,14 +40,16 @@ h1, p {
 .cards-section--container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-top: 4em;
   padding: 0 3em;
 }
 
 .card--container {
   display: flex;
-  justify-content: center;
+}
+
+.card--container + .card--container {
+  margin-top: 1.75em;
 }
 
 .card--img-container {
