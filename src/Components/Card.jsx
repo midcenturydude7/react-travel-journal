@@ -6,7 +6,9 @@ export default function Card(props) {
   console.log(props);
   return (
     <div className="card--container">
-      <div className="card--img-container"><img src={`${props.card.imageUrl}`} alt="" className="card--img" /></div>
+      <div className="card--img-container">
+        <img src={`${props.card.imageUrl}`} alt="" className="card--img" />
+      </div>
       <div className="card-text--container">
         <div className="card-text--header">
           <span className="card-location-icon"><i className="fa-solid fa-location-dot"></i></span>
